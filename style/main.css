@@ -49,6 +49,31 @@ header {
 .menu {
   background-color: #FFFFFF;
   padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+#ultimate {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#survived {
+  font-size: 14px;
+  color: #5C6369;
+  padding-bottom: 6%;
+}
+
+#dollar {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+#explor {
+  padding: 1% 2%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FEA100;
+  border-radius: 4px;
 }
 
 #gallery {
