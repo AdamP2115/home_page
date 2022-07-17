@@ -49,7 +49,7 @@ header {
 .menu {
   background-color: #FFFFFF;
   padding-top: 5%;
-  padding-bottom: 4%;
+  padding-bottom: 5%;
 }
 
 #ultimate {
@@ -74,6 +74,51 @@ header {
   color: #FFFFFF;
   background-color: #FEA100;
   border-radius: 4px;
+}
+
+.clients {
+  background-color: #FFFFFF;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+#happy {
+  font-size: 35px;
+  color: #14141D;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+#lewo {
+  font-size: 60px;
+  text-align: right;
+  padding-bottom: 0%;
+}
+
+#prawo {
+  font-size: 60px;
+  text-align: left;
+}
+
+#best {
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 2%;
+}
+
+#many {
+  font-size: 15px;
+  color: #363D43;
+}
+
+#dr {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#cos {
+  color: #FFC001;
 }
 
 #gallery {
