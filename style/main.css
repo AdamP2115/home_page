@@ -79,6 +79,7 @@ header {
 .reserve {
   background-color: #565F61;
   padding-top: 6%;
+  padding-bottom: 6%;
 }
 
 #reserve {
@@ -86,6 +87,35 @@ header {
   color: #FFFFFF;
   font-size: 35px;
   padding-bottom: 3%;
+}
+
+#rezerwacja {
+  padding-top: 3%;
+}
+
+#makea {
+  text-align: center;
+  color: #FFFFFF;
+  background: #FEA100;
+  border-radius: 4px;
+  padding: 14px 22px;
+}
+
+#call {
+  text-align: right;
+}
+
+#also {
+  color: #FFFFFF;
+}
+
+#fora {
+  color: #ff00bf;
+}
+
+#phone {
+  font-size: 30px;
+  color: #FFFFFF;
 }
 
 .clients {
