@@ -89,8 +89,21 @@ header {
   padding-bottom: 3%;
 }
 
+#smigole {
+  padding-bottom: 1%;
+}
+
+#tekst {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2%;
+  border-radius: 3px;
+  border-color: #FFFFFF;
+}
+
 #rezerwacja {
-  padding-top: 3%;
+  padding-top: 4%;
 }
 
 #makea {
@@ -98,7 +111,7 @@ header {
   color: #FFFFFF;
   background: #FEA100;
   border-radius: 4px;
-  padding: 14px 22px;
+  padding: 15px 22px;
 }
 
 #call {
