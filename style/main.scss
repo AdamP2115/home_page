@@ -230,8 +230,34 @@ footer{
 
 #home{
     color: #ADB2B7;
-    padding-bottom: 1%;
+    padding-bottom: 4%;
 }
+
+#enter{
+    color: #ADB2B7;
+    padding-bottom: 4%;
+}
+
+#email{
+    color: #FFFFFF;
+    height: 100%;
+    width: 50%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border: 2px solid #52535E;
+    border-radius: 4px;
+    opacity: 1;
+    background: transparent;
+}
+
+#subs{
+    text-align: center;
+    color: #FFFFFF;
+    background: #FEA100;
+    border-radius: 4px;
+    padding: 14px 40px;
+}
+
 
 #apple{
     width: 219px;
