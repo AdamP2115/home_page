@@ -48,8 +48,8 @@ header {
 
 .menu {
   background-color: #FFFFFF;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 
 #ultimate {
@@ -74,6 +74,18 @@ header {
   color: #FFFFFF;
   background-color: #FEA100;
   border-radius: 4px;
+}
+
+.reserve {
+  background-color: #565F61;
+  padding-top: 6%;
+}
+
+#reserve {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 35px;
+  padding-bottom: 3%;
 }
 
 .clients {
