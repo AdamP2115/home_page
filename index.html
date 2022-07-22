@@ -1,270 +1,346 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
-    <link href=/style/main.css rel="stylesheet">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href=/style/main.css rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"></script>
     <title>LUXURY RESTAURANT</title>
 </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container">
-                    <img class="img-fluid" id="logo" src="/images/logo.png">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a id="gura">HOME</a>
-                    <a id="gura">MENU</a>
-                    <a id="gura">RESERVATION</a>
-                    <a id="gura">RECIPE</a>
-                    <a id="gura">BLOG</a>
-                    <a id="gura">PAGES</a>
-                    <a id="gura">CONTACT</a>
-                    <img src="/images/icon_cart.png">
-                    <form class="d-flex">
-                        <button id="book" class="btn btn-outline-success" type="submit"><img src="/images/icon_plate.png">  BOOK YOUR TABLE</button>
-                    </form>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div>
-                <div class="container" id="teast">
-                    <div class="row" style="padding-bottom: 8%;">
-                        <div class="col-1">
-                            <img src="/images/arrow-right.png" class="img-fluid" style="transform:rotate(180deg);">
-                        </div>
-                        <div class="col-10" style="text-align:center;"> 
-                            <a style="font-size:62px;">Teast your fav dish</a><br>
-                            <a style="font-size:42px;">from luxury restaurent.</a>
-                        </div>
-                        <div class="col-1">
-                            <img src="/images/arrow-right.png" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-                <div id="bramka">
-                    <img class="img-fluid" src="/images/icon_phone.png"><br>
-                    <a id="call">CALL US AND BOOK YOUR TABLE</a><br>
-                    <a id="tel">1-008 005 006</a>
-                </div>
-            </div>
-            <div class="menu">
-                <div class="container">
-                    <div class="row" style="padding-bottom: 2%;">
-                        <div class="col-6">
-                            <a id="our">Food Menu</a>
-                        </div>
-                        <div class="col-6">
-                            <a id="our">Today Special</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <a id="ultimate">ULTIMATE ORGANIC FRUIT SALAD</a><br>
-                            <p id="survived">survived not only five centuries but the leap</p>
-                        </div>
-                        <div class="col-2">
-                            <a id="dollar">$50.00</a>
-                        </div>
-                        <div class="col-6" id="logims">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <a id="ultimate">PLAIN PANCAKES</a><br>
-                            <p id="survived">Donec eget augue at diam euismod viverra</p>
-                        </div>
-                        <div class="col-2">
-                            <a id="dollar">$68.00</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <a id="ultimate">TOASTED JAM</a><br>
-                            <p id="survived">Phasellus a ex accumsan, sollicitudin</p>
-                        </div>
-                        <div class="col-2">
-                            <a id="dollar">$22.00</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <a id="ultimate">TOASTED JAM</a><br>
-                            <p id="survived">Phasellus a ex accumsan, sollicitudin</p>
-                        </div>
-                        <div class="col-2">
-                            <a id="dollar">$39.00</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <a id="explor">EXPLOR FOOD MENU</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="reserve">
-                <div class="container">
-                    <div class="row" id="reserve">
-                        <a>Reserve your table</a>
-                    </div>
-                    <div class="row" id="smigole">
-                        <div class="col-2"></div>
-                        <div class="col-4">
-                            <input id="tekst" type="text" placeholder="    Name*">
-                        </div>
-                        <div class="col-4">
-                            <input id="tekst" type="text" placeholder="    Email address*">
-                        </div>
-                    </div>
-                    <div class="row" id="smigole">
-                        <div class="col-2"></div>
-                        <div class="col-4">
-                            <input id="tekst" type="text" placeholder="    Time*">
-                        </div>
-                        <div class="col-4">
-                            <input id="tekst" type="text" placeholder="    Date*">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-4">
-                            <input id="tekst" type="number" placeholder="    Gusets*">
-                        </div>
-                        <div class="col-4">
-                            <input id="tekst" type="number" placeholder="    Phone*">
-                        </div>
-                    </div>
-                    <div class="row" id="rezerwacja">
-                        <div class="col-2"></div>
-                        <div class="col-2">
-                            <a id="makea">MAKE RESERVATION</a>
-                        </div>
-                        <div class="col-2" id="call"> 
-                            <a id="also">YOU CAN ALSO CALL</a><br>
-                            <a id="fora">FOR A RESERVATION</a>
-                        </div>
-                        <div class="col-2">
-                            <a id="phone">1-007 000 005</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clients">
-                <div class="container">
-                    <div class="row">
-                        <a id="happy">Happy Clients</a>
-                    </div>
-                    <div class="row">
-                        <div class="col-2"></div>
-                        <div class="col-1" id="lewo">
-                            <a>“</a>
-                        </div>
-                        <div class="col-6">
-                            <a id="best">Best atmosphere and food</a><br>
-                            <a id="many">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident.</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9"></div>
-                        <div class="col-3" id="prawo">
-                            <a>“</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3"></div>
-                        <div class="col-9" id="dr">
-                            <a>DR. PRABAKARAN JOHN</a><br>
-                            <a id="cos"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid" id="gallery">
-                <a id="our">Our gallery</a>
-                <div class="row" id="smi">
-                    <div class="col">
-                        <img class="img-fluid" src="/images/golab.png">
-                    </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/images/golab.png">
-                    </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/images/golab.png">
-                    </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/images/golab.png">
-                    </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/images/golab.png">
-                    </div>
-                </div>
-            </div>
-            <div id="open">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4">
-                            <a id="our">Opening Hours</a>
-                        </div>
-                        <div class="col-2">
-                            <a id="mond">Monday to Friday</a><br>
-                            <a id="am">10am - 10pm</a>
-                        </div>
-                        <div class="col-6">
-                            <a id="mond">Saturday to Sunday</a><br>
-                            <a id="am">09am - 11pm</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
             <div class="container">
-                <div class="row" id="navigation">
-                    <div class="col-3">
-                        <a>Navigation</a>
+                <img class="img-fluid" id="logo" src="/images/logo.png">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a id="gura">HOME</a>
+                <a id="gura">MENU</a>
+                <a id="gura">RESERVATION</a>
+                <a id="gura">RECIPE</a>
+                <a id="gura">BLOG</a>
+                <a id="gura">PAGES</a>
+                <a id="gura">CONTACT</a>
+                <img src="/images/icon_cart.png">
+                <form class="d-flex">
+                    <button id="book" class="btn btn-outline-success" type="submit"><img src="/images/icon_plate.png">
+                        BOOK YOUR TABLE</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="container" id="teast">
+                <div class="row" style="padding-bottom: 8%;">
+                    <div class="col-1">
+                        <img src="/images/arrow-right.png" class="img-fluid" style="transform:rotate(180deg);">
+                    </div>
+                    <div class="col-10" style="text-align:center;">
+                        <a style="font-size:62px;">Teast your fav dish</a><br>
+                        <a style="font-size:42px;">from luxury restaurent.</a>
+                    </div>
+                    <div class="col-1">
+                        <img src="/images/arrow-right.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div id="bramka">
+                <img class="img-fluid" src="/images/icon_phone.png"><br>
+                <a id="call">CALL US AND BOOK YOUR TABLE</a><br>
+                <a id="tel">1-008 005 006</a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <div class="row" style="padding-bottom: 2%;">
+                    <div class="col-6">
+                        <a id="our">Food Menu</a>
                     </div>
                     <div class="col-6">
-                        <a>News letter</a>
-                    </div>
-                    <div class="col-3">
-                        <a>Our app avilable</a>
+                        <a id="our">Today Special</a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-3" id="home">
-                        <div>
-                            <a>Home</a><br>
-                            <a>About us</a><br>
-                            <a>Menu</a><br>
-                            <a>Reservation</a><br>
-                            <a>Recipe</a><br>
-                            <a>Blog</a><br>
-                            <a>Contact Us</a>
-                        </div>
+                    <div class="col-4">
+                        <a id="ultimate">ULTIMATE ORGANIC FRUIT SALAD</a><br>
+                        <p id="survived">survived not only five centuries but the leap</p>
                     </div>
-                    <div class="col-6">
-                        <div>
-                            <a id="enter">Enter your email address and subscribe daily newsletter</a><br>
-                            <input id="email" type="text" placeholder="         Email Address">
-                            <a id="subs">SUBSCRIBE</a>
-                        </div>
+                    <div class="col-2">
+                        <a id="dollar">$50.00</a>
                     </div>
-                    <div class="col-3">
-                        <div id="apple">
-                            <a style="font-size: 11px;">Avilable on the</a><br>
-                            <a style="font-size: 18px;">App Store</a>
-                        </div><br>
-                        <div id="google">
-                            <a style="font-size: 11px;">Get it on</a><br>
-                            <a style="font-size: 18px;">Google Play</a>
-                        </div>
+                    <div class="col-6" id="logims">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a id="ultimate">PLAIN PANCAKES</a><br>
+                        <p id="survived">Donec eget augue at diam euismod viverra</p>
+                    </div>
+                    <div class="col-2">
+                        <a id="dollar">$68.00</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a id="ultimate">TOASTED JAM</a><br>
+                        <p id="survived">Phasellus a ex accumsan, sollicitudin</p>
+                    </div>
+                    <div class="col-2">
+                        <a id="dollar">$22.00</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a id="ultimate">TOASTED JAM</a><br>
+                        <p id="survived">Phasellus a ex accumsan, sollicitudin</p>
+                    </div>
+                    <div class="col-2">
+                        <a id="dollar">$39.00</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a id="explor">EXPLOR FOOD MENU</a>
                     </div>
                 </div>
             </div>
-        </footer>
-    </body>
+        </div>
+        <div class="reserve">
+            <div class="container">
+                <div class="row" id="reserve">
+                    <a>Reserve your table</a>
+                </div>
+                <div class="row" id="smigole">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <input id="tekst" type="text" placeholder="    Name*">
+                    </div>
+                    <div class="col-4">
+                        <input id="tekst" type="text" placeholder="    Email address*">
+                    </div>
+                </div>
+                <div class="row" id="smigole">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <input id="tekst" type="text" placeholder="    Time*">
+                    </div>
+                    <div class="col-4">
+                        <input id="tekst" type="text" placeholder="    Date*">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <input id="tekst" type="number" placeholder="    Gusets*">
+                    </div>
+                    <div class="col-4">
+                        <input id="tekst" type="number" placeholder="    Phone*">
+                    </div>
+                </div>
+                <div class="row" id="rezerwacja">
+                    <div class="col-2"></div>
+                    <div class="col-2">
+                        <a id="makea">MAKE RESERVATION</a>
+                    </div>
+                    <div class="col-2" id="call">
+                        <a id="also">YOU CAN ALSO CALL</a><br>
+                        <a id="fora">FOR A RESERVATION</a>
+                    </div>
+                    <div class="col-2">
+                        <a id="phone">1-007 000 005</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clients">
+            <div class="container">
+                <div class="row">
+                    <a id="happy">Happy Clients</a>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-1" id="lewo">
+                        <a>“</a>
+                    </div>
+                    <div class="col-6">
+                        <a id="best">Best atmosphere and food</a><br>
+                        <a id="many">Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                            default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                            their infancy. Various versions have evolved over the years, sometimes by accident.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9"></div>
+                    <div class="col-3" id="prawo">
+                        <a>“</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-9" id="dr">
+                        <a>DR. PRABAKARAN JOHN</a><br>
+                        <a id="cos"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="gallery">
+            <a id="our">Our gallery</a>
+            <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+                <div class="carousel-inner py-4">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                                    <div class="card">
+                                        <img class="img-fluid" src="/images/golab.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             <div class="d-flex justify-content-center mb-4">
+                <button class="carousel-control-prev position-relative" type="button"
+                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next position-relative" type="button"
+                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div id="open">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <a id="our">Opening Hours</a>
+                    </div>
+                    <div class="col-2">
+                        <a id="mond">Monday to Friday</a><br>
+                        <a id="am">10am - 10pm</a>
+                    </div>
+                    <div class="col-6">
+                        <a id="mond">Saturday to Sunday</a><br>
+                        <a id="am">09am - 11pm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row" id="navigation">
+                <div class="col-3">
+                    <a>Navigation</a>
+                </div>
+                <div class="col-6">
+                    <a>News letter</a>
+                </div>
+                <div class="col-3">
+                    <a>Our app avilable</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3" id="home">
+                    <div>
+                        <a>Home</a><br>
+                        <a>About us</a><br>
+                        <a>Menu</a><br>
+                        <a>Reservation</a><br>
+                        <a>Recipe</a><br>
+                        <a>Blog</a><br>
+                        <a>Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div>
+                        <a id="enter">Enter your email address and subscribe daily newsletter</a><br>
+                        <input id="email" type="text" placeholder="         Email Address">
+                        <a id="subs">SUBSCRIBE</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div id="apple">
+                        <a style="font-size: 11px;">Avilable on the</a><br>
+                        <a style="font-size: 18px;">App Store</a>
+                    </div><br>
+                    <div id="google">
+                        <a style="font-size: 11px;">Get it on</a><br>
+                        <a style="font-size: 18px;">Google Play</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
